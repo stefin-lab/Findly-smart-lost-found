@@ -39,7 +39,9 @@ def create_database():
 
     db.commit()
     db.close()
-
+    
+    
+create_database()
 
 # =========================================================
 # SMART MATCHING
